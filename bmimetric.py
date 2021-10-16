@@ -1,7 +1,5 @@
 weight = float(input("Please enter weight in kilograms: "))
-height_input = float(input("Please enter height in meters: "))
-heightNumList = str(height_input).rsplit('.')
-height = int("".join(heightNumList))
+height = float(input("Please enter height in meters: "))
 
-BMI = weight / (height/100)**2
-print("BMI is:", round(BMI, 10))
+BMI = round(weight / (height * height), 10)
+print("BMI is:", BMI)
