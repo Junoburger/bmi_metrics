@@ -16,4 +16,4 @@ elif BMI >= 30.0:
 else:
     status = "Unknown outcome"
 
-print("BMI is:", BMI, "Status is", status)
+print("BMI is:", BMI, ", status is", status)
