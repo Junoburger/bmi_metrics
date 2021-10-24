@@ -3,7 +3,7 @@ height = float(input("Please enter height in meters: "))
 
 
 BMI = round(weight / (height * height), 2)
-print(BMI)
+
 if BMI < 18.5:
     status = "Underweight"
 elif BMI > 18.5 and BMI <= 24.9:
